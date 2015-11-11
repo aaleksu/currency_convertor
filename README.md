@@ -11,7 +11,7 @@ git clone https://github.com/aaleksu/currency_convertor.git
 
 build it:
 <pre>
-got build currency.go
+go build currency.go
 </pre>
 
 run it:
