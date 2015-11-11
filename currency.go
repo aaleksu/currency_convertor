@@ -42,9 +42,8 @@ func main() {
 		fmt.Printf("\n%s\n", err)
 	}
 
-	fmt.Printf("\nBase currency: %s", c.Base)
-	fmt.Printf("\n------------------\n")
-	fmt.Printf("\nRates:")
-	fmt.Printf("\nto RUB -> %f", c.Rates.RUB)
-	fmt.Printf("\nto USD -> %f\n", c.Rates.USD)
+	fmt.Printf("\n%s:", c.Base)
+	fmt.Printf("\n------------------")
+	fmt.Printf("\nto RUB -> %7.3f", c.Rates.RUB)
+	fmt.Printf("\nto USD -> %7.3f\n", c.Rates.USD)
 }
